@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pedido de pizza.</h1>
+    <form method="GET" action="teste.jps">
+    Nome: <input type="text" name="nome"> <br>
+    Email: <input type="email" name="email"><br>
+    Tamanho:
+ <input type="radio" name="Tamanho" value="g" checked> Grande
+Tamanho: <input type="radio" name="Tamanho" value="m"> Médio
+Tamanho: <input type="radio" name="Tamanho" value="p"> pequena 
+    <br>
+    Sabor: <select name="Sabor">
+        <option>"Calabresa"</option>
+        <option>"Napolitana"</option>
+        <option>"Marguerita"</option>
+    </select>
+    <br>
+    Adicionais:
+    <input type="checkbox" name="Borda" value="sim">Borda
+    <input type="checkbox" name="Queijo" value="sim">Queijo
+    <br>
+    Data Entrega: <input type="date" name="dataEntrega">
+</body>
+</html>
